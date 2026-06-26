@@ -89,6 +89,7 @@ Target centers are predefined in 3D space to maximize separation between classes
 - **Adjusted Rand Index (ARI)**: 0.67
   - Measures how well the learned embeddings separate classes
   - Computed using Gaussian Mixture Model clustering on embeddings
+  - Model size constraint (only 0.53 MB)
 
 ### Model Artifacts
 
@@ -186,8 +187,9 @@ Run the Jupyter notebook `challenge.ipynb` to train the model from scratch. The 
 
 ## Author
 
-Kevton
+Keval
 
 ## License
+Done as part of a Stat 154/254 Lab @ UC Berkeley
 
-This project is part of STAT 254 coursework.
+
